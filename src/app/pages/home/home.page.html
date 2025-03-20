@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Daftar perjalanan </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list>
+    <ion-card ngFor="let ticket of tickets"(click)="handleSubmitDetail(ticket)">
+
+      <ion-card-header>
+        <ion-card-title>{{ticket.title}}</ion-card-title>
+      </ion-card-header>
+      <ion-thumbnail>
+        <img [src]=ticket.image/>
+      </ion-thumbnail>
+      <ion-card-content>
+       <p>{{ticket.price}}</p>
+       <p><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="30px" height="30px" fill="#e3e3e3"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>{{ticket.rating}}</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+
+</ion-content>

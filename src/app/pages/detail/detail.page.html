@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Detail perjalanan </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div *ngFor="let ticket of tickets">
+
+  <img [src]=ticket.image/>
+  <ion-card>
+    <ion-card-header>
+      <ion-title size="large">{{ticket.title}}</ion-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p><strong>Harga:</strong>{{ticket.price}}</p>
+       <p><strong>Rating</strong><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="30px" height="30px" fill="#e3e3e3"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>{{ticket.rating}}</p>
+       <p><strong>Ringkasan:</strong>{{ticket.summary}}</p>
+       <p><strong>Sertakan:</strong>{{ticket.detail.includes}}</p>
+       <p><strong>Kecuali:</strong>{{ticket.detail.excludes}}</p>
+       <p><strong>Terms:</strong>{{ticket.detail.Term}}</p>
+      </ion-card-content>
+  </ion-card>
+</div>
+</ion-content>
+
+
+

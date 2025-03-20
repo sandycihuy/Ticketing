@@ -1,0 +1,224 @@
+{
+      "tickets":[
+      {
+      "id":1,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Tiket pesawat"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":2,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":25
+      }
+    },
+    {
+      "id":3,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":4,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":5,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":6,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":7,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":8,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":8,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":9,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    },
+    {
+      "id":10,
+      "title":"Trip to Yogyakarta",
+      "image":"assets/download.jpeg",
+      "price":"2000000",
+      "rating":4.9,
+      "summary":"Perjalanan menyenangkan selama 2 hari 1 malam",
+      "details":{
+        "includes":[
+          "Hotel", "makan","jalan-jalan","transportasi"
+        ],
+        "excludes":[
+          "Makan Siang","Pengeluaran Pribadi"
+        ],
+        "Term":[
+        "Pembatalan tidak dapat di lakukan setelah pembayaran"
+        ],
+        "Passengers":10
+      }
+    }
+  ]
+}
