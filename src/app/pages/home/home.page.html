@@ -5,13 +5,13 @@
 </ion-header>
 <ion-content [fullscreen]="true" class="ion-padding">
   <ion-list>
-    <ion-card ngFor="let ticket of tickets"(click)="handleSubmitDetail(ticket)">
+    <ion-card *ngFor="let ticket of tickets" (click)="handleSubmitDetail(ticket)">
 
       <ion-card-header>
         <ion-card-title>{{ticket.title}}</ion-card-title>
       </ion-card-header>
       <ion-thumbnail>
-        <img [src]=ticket.image/>
+        <img [src]="ticket.image"/>
       </ion-thumbnail>
       <ion-card-content>
        <p>{{ticket.price}}</p>

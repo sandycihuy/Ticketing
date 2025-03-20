@@ -4,8 +4,8 @@ import { NavController } from "@ionic/angular";
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.page.html',
-  styleUrls: ['./home.page.scss'],
+  templateUrl: './pages/home/home.page.html',
+  styleUrls: ['./pages/home/home.page.scss'],
 })
 export class HomePage implements OnInit {
   tickets: any[] = [];
@@ -17,6 +17,6 @@ export class HomePage implements OnInit {
   }
 
   handleSubmitDetail(ticket:any){
-    this.navCtrl.navigateForward(`/detail/${ticket.id}`)
+   this.navCtrl.navigateForward(`/detail/${ticket.id}`);
   }
 }
